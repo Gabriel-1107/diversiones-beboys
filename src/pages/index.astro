@@ -5,11 +5,14 @@ import Testimonial from "@/components/Testimonial.astro";
 import Base from "@/layouts/Base.astro";
 import Cta from "@/layouts/partials/Cta.astro";
 import { getEntry } from "astro:content";
+import CounterComponent from "@/components/CounterComponent.astro";
 
 const homepage = await getEntry("homepage", "index");
 // console.log(homepage);
 const { banner, sections, features, testimonial } = homepage.data;
 const call_to_action = homepage.data.call_to_action;
+const { counter } = Astro.props;
+
 ---
 
 <Base>
@@ -17,6 +20,21 @@ const call_to_action = homepage.data.call_to_action;
   <section class="lg:mb-10 animate-fade-in">
     <Section section={banner} />
   </section>
+  <CounterComponent
+  counter={[
+    {
+      name: "Clientes Satisfechos",
+      number: 10000,
+      // underscore is used to indicate the icon name do not have to be transformed in order to be imported from the 'feather-icons' package
+      icon: "smile",
+    },
+    {
+      name: "Servicios mensuales",
+      number: 3000,
+      icon: "truck",
+    },
+  ]}
+  />
   <!-- multi section -->
   {
     sections && (
@@ -29,6 +47,10 @@ const call_to_action = homepage.data.call_to_action;
   }
   <!-- key features -->
   <Features features={features} />
+
+
+<br/>
+
   <!-- testimonial -->
   <Testimonial testimonial={testimonial} />
   <!-- call to action -->

@@ -2,127 +2,103 @@
 # Does not contain meta customizations because it is the homepage and config is already set in the config file
 
 banner:
-  title: 'An <span class="text-accent text-shadow-[0px_5px_15px] shadow-accent/10">Astro</span> Starter <span class="text-secondary"> batteries-included</span>'
+  title: 'Diversiones <span class="text-accent text-shadow-[0px_5px_15px] shadow-accent/10">Beboy''s</span> <span class="text-secondary"> </span>'
   title_size: "text-4xl md:text-6xl"
   content: "A fully responsive astro starter repo, ideal for simple (yet laborious) content-driven pages or landings."  
-  image: /images/logo_v5_xl_pfp.webp
+  image: /images/logotipo.png
   buttons:
-    - label: Get the Code
+    - label: Contáctanos
       href: "https://github.com/diego-alfadev/alfadev-astro-starter"
       target: "_blank"
-      icon: _GitHub
+      icon: _Phone
       addClasses: "w-full bg-gray-900 text-white hover:bg-accent dark:border-white/10 dark:border"
 
 sections:
-  - title: Tired of writing the same code over and over again?
-    content: "We've all been there... Setting up the same SEO, theming, and responsive layout boilerplate again and again. Say goodbye to that! <b class='text-accent'>alfadev-astro-starter</b> lets you jump straight into creating, skipping the repetitive groundwork."
-    image: /images/tired-of-writing.webp
+  - title: ¡Haz de tu evento algo inolvidable!
+    content: En <b class='text-accent'>Diversiones Beboy's</b>., tenemos todo lo que necesitas para organizar una fiesta increíble; renta de autos, brincolines, rokolas, toro mecánico, toldos y más. Además, surtimos tu evento con cerveza y refrescos.
+    image: /images/carro1.jpeg
 
-  - title: This is not a library
-    content: It's a <b class='text-accent'>ready-to-go template</b>. No steep learning curves or dozens of new dependencies. Just the essentials to build content-driven pages with ease.<br/>If you're familiar with <span class="text-accent font-bold">Astro</span>, you are good to go.
-    image: /images/this-is-not-a-library.webp
+  - title: Autos listos para cualquier ocasión
+    content: Renta de autos en perfectas condiciones y a precios accesibles.
+    image: /images/carro2.jpeg
 
-  - title: Optimized out of the box
-    content: Lightweight and fast. Packed with <span class="text-accent font-bold">Astro</span>, <span class="text-[#38bdf8] font-bold">tailwind</span> and <span class="text-[#e41c81] font-bold">Sass</span> goodness, so your pages load <b class='text-accent'>blazing fast</b>—right from the start. <br/> All the pages are configured in a way that are SEO-friendly and defined with markdown.
-    image: /images/optimized-out-of-the-box.webp
 
-  - title: Looks great, day or night
-    content: "With <b class='text-accent'>built-in dark theme support</b>, your site will look amazing no matter what time of day your users visit. Or what their eyes prefer.<br/> <br/>Forget convoluted theming systems. alfadev-astro-starter keeps it <b class='text-accent'>simple and extensible</b>, so you can focus on your design and let the code work fori you."
-    image: /images/loogs-good.webp
+  - title: Eventos sin preocupaciones
+    content: Toldos, mobiliario y bebidas listas para que disfrutes sin estrés.
+    image: /images/toldo.jpeg
 
 
 ##key features
 features:
-  title: Why <span class="text-accent">alfadev-starter</span>?
-  description: Because every content-driven page needs a lot boilerplate to initialize, and **we provide you with the tools and guidelines** needed to focus on what's important.
+  title: Nuestros Servicios
+  description: En Diversiones Beboy's, ofrecemos todo lo necesario para tu evento; renta de autos, brincolines, rokolas, toro mecánico, toldos y mobiliario. También contamos con venta de cerveza y refrescos para que la diversión no falte.
   feature_list:
-    - icon: "box"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Simple
-      content: Avoid Complexity, small yet not useless. Loaded, but <b class="text-text">not overwhelming</b>.
-    - icon: "clock"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Up-to-date
-      content: Using the latest version and best practices of <span class="text-accent font-bold">Astro</span>, <span class="text-[#38bdf8] font-bold">tailwindcss</span> and <span class="text-[#e41c81] font-bold">Sass</span>
-    - icon: "search"  #icon package react-feather-icon [https://feathericons.com/]
-      title: SEO Friendly
-      content: Boost your site's visibility with <b class="text-text">built-in SEO optimizations</b>, including automatic sitemap generation using <a target='blank' href="https://docs.astro.build/es/guides/integrations-guide/sitemap/"><span class="text-accent font-bold underline">astrojs/sitemap</span></a>.
-    - icon: "plus"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Extendable
-      content: Add or change content just by <b class="text-text">editing markdown files</b>, so it stays in one place regardless of the code.
-    - icon: "coffee"  #icon package react-feather-icon [https://feathericons.com/]
-      title: "Focused"
-      content: Put you effort on what's important, not on small details. Dont worry about <span class="text-shadow-sm shadow-surface-contrast">***that damn shadow***</span>.
-    - icon: "tool"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Customizable
-      content: Every corner of the page <b class="text-text">can be easily changed</b> to fit your needs.
-    - icon: "moon"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Dark Mode Support
-      content: Fully supports ***dark theme*** with an easy-to-extend theming system.
-    - icon: "feather"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Lightweight
-      content: Fast and efficient. Every asset is optimized to ensure <b class="text-text">minimal load times</b>.
-    - icon: "layers"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Modular
-      content: Built with ***reusable components*** that simplify adding or editing sections of the page.
-    - icon: "zap"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Performance-First
-      content: Designed with <b class="text-text">best-in-class performance</b> metrics to improve the user experience.
-    - icon: "layout"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Content-Centric
-      content: Focused on delivering content seamlessly, making it ideal for <b class="text-text">portfolios, showcases, or landing pages</b>.
-    - icon: "code"  #icon package react-feather-icon [https://feathericons.com/]
-      title: Developer-Friendly
-      content: Crafted for developers who value ***simplicity, flexibility, and modern*** tools.
-    
+    - icon: "truck"  
+      title: Renta de Autos
+      content: Ofrecemos autos en excelente estado para viajes, trabajo o uso personal, con opciones de renta flexibles y precios accesibles.
+
+    - icon: "clock"  
+      title: Renta de Brincolines
+      content: Diversión asegurada con brincolines de diferentes tamaños y diseños, ideales para fiestas infantiles y reuniones familiares.
+
+    - icon: "music"  
+      title: Renta de Rokolas
+      content: ¡Que la fiesta no pare! Nuestras rokolas tienen sonido de calidad y un extenso catálogo de música para cualquier evento.
+
+    - icon: "plus"  
+      title: Renta de Toldos y Mobiliario
+      content: Toldos de distintos tamaños y paquetes de mobiliario para que tu evento sea cómodo y esté bien protegido del clima.
+
+    - icon: "coffee"  
+      title: Renta de Toro Mecánico
+      content: Agrega emoción con un toro mecánico seguro y ajustable, ideal para fiestas y eventos llenos de adrenalina.
+
+    - icon: "tool"  
+      title: Venta de Cerveza y Refrescos
+      content: Surtimos tu evento con una variedad de cervezas y refrescos, disponibles en diferentes presentaciones y paquetes.
 
 
 
 
-#testimonial
+# Testimonios
 testimonial:
-  title: Our adopters and their clients <ins>have nice things to say</ins> about us
-  description: Or they will, once they taste a drop of **what we've built**
+  title: Testimonios
+  description: En Diversiones Beboy's, la satisfacción de nuestros clientes es nuestra mejor garantía. Mira lo que dicen sobre nuestros servicios 
   testimonial_list:
-    - author: Jhon Doe
-      organization: Example Corp
+    - author: Ana Gómez
+      organization: Facebook
       rating: five
-      content: "I can't believe this testimonial is autogenerated! But hey, I’d still give it <b class='text-accent'>five stars</b>!"
-    - author: Jane D. Smith
-      organization: Acme Inc.
+      content: "El servicio fue excelente, todo llegó a tiempo y en perfectas condiciones. Nuestros invitados quedaron encantados con el toro mecánico y la rokolas. ¡Definitivamente volveremos a rentar!"
+    - author: Luis Rodríguez
+      organization: Google Maps
+      rating: five
+      content: "Los brincolines fueron un éxito con los niños y los precios son muy accesibles. Muy buena atención y servicio confiable."
+    - author: María Torres
+      organization: Instagram
+      rating: five
+      content: "Gracias a Diversiones Beboy’s, nuestra fiesta fue un éxito. La atención al cliente es increíble y tienen una gran variedad de opciones."
+    - author: Ricardo Fernández
+      organization: Facebook
       rating: four
-      content: "Doesn't matter if I exist or not, this project is <b class='text-accent'>truly fantastic</b>. Highly recommend!"
-    - author: Bob A. Nonymous
-      organization: FutureTech Labs
+      content: "Todo estuvo genial, aunque me hubiera gustado más variedad de inflables. Aún así, un gran servicio y atención."
+    - author: Sofía Méndez
+      organization: Google Maps
       rating: five
-      content: "Wow, this is so good, I’d recommend it to all my imaginary friends."
-    - author: Alice Placeholder
-      organization: Startup Ipsum
-      rating: three
-      content: "If I were real, I’d definitely complain less. But it’s still pretty good!"
-    - author: Richard Fakenham
-      organization: Lorem Ipsum Ltd.
+      content: "La mejor opción para organizar un evento sin preocupaciones. Puntuales, equipo en excelente estado y precios justos."
+    - author: Javier Pérez
+      organization: Instagram
       rating: five
-      content: "Astounding! Even for a made-up person like me, this template <b class='text-accent'>exceeds expectations</b>."
-    - author: Emily Mockson
-      organization: Phantom Co.
-      rating: four
-      content: "No real user said this, but they should! Such a slick and modern experience."
-    - author: Alex Testworth
-      organization: AlphaBeta Agency
-      rating: five
-      content: "Best autogenerated testimonial I’ve ever seen. 10/10 would fake it again."
-    - author: Chris Placeholder
-      # avatar: "/images/users/user-8.png"
-      organization: Ghost Design Studios
-      rating: four
-      content: "You don’t have to believe me, but you should believe in this product!"
+      content: "La rokolas fue un éxito en nuestra reunión. Fácil de usar y con un gran repertorio de música. Muy recomendados."
 
+
+## Counter 
 
 ## Call to Action
 call_to_action:
-  title: "Because we love <span class='text-accent text-shadow-[0px_5px_15px]' >Astro</span> and <span class='text-[#38bdf8] text-shadow-[0px_5px_15px]'>Tailwind</span>."
-  description: "Save yourself some time (and sanity). Use this template and act like you planned everything from scratch. We won't tell. **Just be sure to leave a star, please.**"
+  title: "¿Listo para la mejor fiesta?"
+  description: "Contáctanos y llevemos la diversión hasta tu puerta."
   button: 
-    label: "Grab the Starter"
+    label: "Contáctanos"
     href: "https://github.com/diego-alfadev/alfadev-astro-starter"
     color: accent
 

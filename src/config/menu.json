@@ -1,54 +1,30 @@
 {
   "main": [
     {
-      "name": "Home",
+      "name": "Inicio",
       "url": "/"
     },
     {
-      "name": "Features",
-      "url": "/features"
-    },
-    {
-      "name": "Theme",
-      "url": "/theme"
-    },
-    {
-      "name": "About",
-      "url": "/about"
-    },
-    {
-      "name": "Pages",
+      "name": "Servicios",
       "url": "",
       "hasChildren": true,
       "children": [
         {
-          "name": "Changelog",
-          "url": "/changelog"
+          "name": "Renta de Autos",
+          "url": "/features"
         },
         {
-          "name": "Does not exist",
-          "url": "/does-not-exist"
+          "name": "Renta de Brincolines",
+          "url": "/features"
         },
 
         {
-          "name": "Neither does this",
-          "url": "/neither-does-this"
+          "name": "Renta de Rokolas",
+          "url": "/features"
         },
         {
-          "name": "Nope, not this one either",
-          "url": "/nope-not-this-one-either"
-        },
-        {
-          "name": "What about this?",
-          "url": "/what-about-this"
-        },
-        {
-          "name": "Come on, this one must exist",
-          "url": "/come-on-this-one-must-exist"
-        },
-        {
-          "name": "Do you expect this to exist?",
-          "url": "/do-you-expect-this-to-exist"
+          "name": "Renta de Toldos y Mobiliario",
+          "url": "/features"
         }
       ]
     }
